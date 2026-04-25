@@ -1,2 +1,0 @@
-timestamp,pair,mode,decision,price,trade_size_usd,portfolio_value,reason
-2026-01-01 09:00:00,BTC/USD,simulation,skip,50000,0,10000,conditions_not_met
