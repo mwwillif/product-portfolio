@@ -1,0 +1,6 @@
+{
+  "legal_business_name": "company.name",
+  "business_address": "company.address",
+  "primary_contact": "contact.name",
+  "contact_email": "contact.email"
+}
