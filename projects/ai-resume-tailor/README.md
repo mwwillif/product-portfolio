@@ -1,62 +1,95 @@
 # AI Resume Tailoring Engine
 
-## Type
-AI automation product | Document generation system | Career workflow tool
-
-## Role
-Product manager, workflow designer, prompt architect, and builder
-
 ## Overview
-The AI Resume Tailoring Engine is a Python-based system that helps create tailored resumes for specific job descriptions while preserving formatting, truthfulness, and control over what sections can be rewritten.
 
-The system uses a structured two-step AI workflow. First, it analyzes a job description to extract required skills, screening keywords, domain signals, preferred tools, and leadership expectations. Second, it uses that analysis to rewrite only approved sections of a master resume template.
+The AI Resume Tailoring Engine is a Python-based tool I built to tailor resumes to specific job descriptions. It analyzes the job description, identifies the most important role requirements, and updates approved sections of a resume template while preserving structure and formatting.
+
+The goal was to make resume tailoring faster, more consistent, and more targeted without relying on generic AI rewriting or manually editing the resume from scratch for every application.
 
 ## Problem
-Tailoring a resume manually for each role is time-consuming, inconsistent, and easy to overdo. Generic AI resume tools can also create problems because they may rewrite too much, break formatting, invent experience, or weaken the candidate's strongest positioning.
 
-## Users
-- Product managers applying to technical, AI, data, and platform roles
-- Job seekers with multiple resume versions
-- Career operators who need repeatable tailoring workflows
+Tailoring a resume for each job is time-consuming and inconsistent. Generic AI tools often rewrite too much, break formatting, or add claims that are not supported by the candidate's actual experience.
+
+I wanted a controlled workflow that could:
+
+- Analyze a job description.
+- Identify required skills and screening keywords.
+- Use my actual experience as the source material.
+- Rewrite only approved resume sections.
+- Preserve the Word document structure.
+- Export a clean final resume.
 
 ## Solution
-I built a structured resume automation workflow using Python, a master DOCX template, section markers, and a two-step AI prompting process.
+
+I built a Python workflow that uses a master resume template, job description analysis, and controlled AI prompting to produce tailored resume drafts.
+
+The system is designed around human review. It accelerates the tailoring process, but the final resume is still reviewed before submission.
 
 ## Key Features
-- Job description input by pasted text or URL scraping
-- AI-powered job analysis before rewriting
-- Section-bounded resume tailoring using template markers
-- DOCX and PDF output
-- Company-specific file naming
-- Formatting preservation
-- Guardrails to keep content truthful
 
-## Technical Approach
+- Job description intake.
+- Job requirement analysis.
+- AI-assisted resume tailoring.
+- Section-bounded editing using template markers.
+- Resume formatting preservation.
+- DOCX output.
+- PDF output.
+- Company-specific file naming.
+- Guardrails to avoid unsupported claims.
 
-```text
-Job Description Input
-        |
-        v
-Job Analysis Prompt
-        |
-        v
-Structured Job Analysis
-        |
-        v
-Experience Pool + Master Resume Template
-        |
-        v
-Section-Bounded Resume Tailoring Prompt
-        |
-        v
-Updated DOCX Resume
-        |
-        v
-PDF Export + Company-Specific File Name
-```
+## How It Works
 
-## Supporting Artifacts
-- [Sample Job Analysis](sanitized-examples/sample-job-analysis.md)
-- [Sample Prompt Flow](sanitized-examples/sample-prompt-flow.md)
-- [Architecture Diagram](diagrams/architecture.md)
-- [Screenshot Notes](screenshots/screenshot-notes.md)
+1. The user provides a job description.
+2. The system analyzes the job description.
+3. The system identifies required skills, keywords, and role priorities.
+4. The system loads the master resume template and approved experience material.
+5. The AI updates only approved sections.
+6. The system creates a tailored DOCX file.
+7. The system creates a matching PDF.
+8. The user reviews the final output before applying.
+
+## Product Decisions
+
+### Controlled editing instead of full AI rewriting
+
+I used template markers so the system only updates approved sections. This prevents the AI from changing employer names, dates, education, or other fixed resume content.
+
+### Job analysis before tailoring
+
+The system analyzes the job first, then uses that analysis to tailor the resume. This creates stronger alignment than asking the AI to rewrite the resume in one step.
+
+### Human review remains part of the workflow
+
+The system is designed to improve speed and consistency, not remove judgment. Every final resume still requires review before submission.
+
+## Tools Used
+
+- Python.
+- OpenAI API.
+- python-docx.
+- Playwright.
+- Word resume template.
+- PDF export workflow.
+
+## What This Demonstrates
+
+This project demonstrates:
+
+- AI workflow design.
+- Prompt engineering.
+- Product automation.
+- Document generation.
+- Workflow control.
+- User-centered guardrail design.
+- Practical use of AI for a real productivity problem.
+
+## Sensitive Information Removed
+
+This public version removes or sanitizes:
+
+- Real resumes.
+- Personal contact information.
+- API keys.
+- Private job application data.
+- Full prompt details where sensitive.
+- Any private file paths or credentials.
