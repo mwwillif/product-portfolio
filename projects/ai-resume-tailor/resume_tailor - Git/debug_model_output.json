@@ -1,0 +1,98 @@
+{
+  "updates": [
+    {
+      "section_id": "summary",
+      "content": [
+        "Senior Product Manager with 10+ years of experience leading digital product transformation across internal data, workflow, and analytics platforms in highly regulated financial services and utility environments. Proven track record designing product operating models, governance frameworks, automation-enabled workflows, and KPI-driven platforms that improve efficiency, strengthen data trust, and accelerate delivery across cross-functional organizations."
+      ]
+    },
+    {
+      "section_id": "skills_data_platforms",
+      "content": [
+        "Product development lifecycle, Product operating models, Workflow optimization, Process standardization, Data platforms, Data governance, Metadata management, Data lineage, Data quality, Stewardship, Self-service platforms, Analytics tooling, Reporting platforms, KPI dashboards, Data migration"
+      ]
+    },
+    {
+      "section_id": "skills_product_leadership",
+      "content": [
+        "Digital product management, Product transformation, Agile product delivery, Roadmaps, Product lifecycle management, Cross-functional leadership, Operating model design, Change management, Adoption strategy, Governance and standards, Stakeholder alignment, Executive communication, Systems thinking, Process improvement, Mentorship"
+      ]
+    },
+    {
+      "section_id": "skills_tools",
+      "content": [
+        "Jira, Azure DevOps, Microsoft Fabric, Power BI, SQL, Tableau, Alteryx, Snowflake, SharePoint, Microsoft Teams, Excel, PowerPoint, OneNote"
+      ]
+    },
+    {
+      "section_id": "skills_domains",
+      "content": [
+        "Financial services, Banking, Corporate and Investment Banking, Regulatory reporting, Compliance, Audit, Utilities, Internal tooling, Enterprise digital transformation, Regulated environments"
+      ]
+    },
+    {
+      "section_id": "amplytico_desc",
+      "content": [
+        "Founding Lead Product Manager establishing product management practices, roadmaps, and delivery standards for internal digital platforms, workflow automation, and governed data products for a Fortune 500 utility client."
+      ]
+    },
+    {
+      "section_id": "amplytico_bullets",
+      "content": [
+        "Established product management operating model, sprint cadences, and cross-functional delivery practices that improved coordination and speed to value across enterprise teams.",
+        "Defined roadmap for data management and workflow platforms that increased visibility into data lineage, ownership, and policy exceptions across critical reporting environments.",
+        "Led change management and platform adoption across business stakeholders and engineering teams, acting as the primary product owner for rollout and execution.",
+        "Mentored junior Product Managers and reinforced product excellence, accountability, and user-centered execution across engagements."
+      ]
+    },
+    {
+      "section_id": "wells_fargo_vp_desc",
+      "content": [
+        "Senior Product Manager leading enterprise data governance and internal platform initiatives across Corporate & Investment Banking, aligning product strategy, standards, and delivery across 10+ business lines."
+      ]
+    },
+    {
+      "section_id": "wells_fargo_vp_bullets",
+      "content": [
+        "Owned product vision for internal data governance platforms across Corporate & Investment Banking and designed metadata and lineage standards adopted across 10+ business lines.",
+        "Delivered dashboards and internal tools that surfaced data quality KPIs, improving trust, transparency, and usage of analytical datasets.",
+        "Partnered with engineering to build self-service tools for data stewards and compliance leads, reducing friction in governance and oversight workflows.",
+        "Led data migration initiatives during system transitions, preserving data integrity, discoverability, and continuity across critical business processes."
+      ]
+    },
+    {
+      "section_id": "ey_desc",
+      "content": [
+        "Consulting product leader delivering internal digital platforms and workflow solutions for large U.S. banks, solving regulatory, operational, and organizational challenges through agile product delivery and cross-functional transformation."
+      ]
+    },
+    {
+      "section_id": "ey_bullets",
+      "content": [
+        "Developed internal platform products for major banks to meet regulatory and audit standards through metadata, lineage, and ownership tracking.",
+        "Led the Agile product lifecycle for internal tooling, aligning stakeholders across risk, operations, IT, and business teams from ideation through launch.",
+        "Delivered self-service tools that accelerated compliance validation and audit response by 30%, improving operational efficiency and readiness.",
+        "Defined roadmaps, prioritized features, and managed end-to-end product development lifecycles for complex cross-functional initiatives.",
+        "Led requirements gathering, prototyping, testing, and launch using agile and user-centered design principles.",
+        "Identified and solved complex business, organizational, and operational problems for banking and capital markets clients, improving processes, efficiency, and effectiveness."
+      ]
+    },
+    {
+      "section_id": "wells_fargo_reg_desc",
+      "content": [
+        "Product Manager leading regulatory reporting platform enhancements, workflow automation, and data integrity remediation for QFC reporting in a highly regulated banking environment."
+      ]
+    },
+    {
+      "section_id": "wells_fargo_reg_bullets",
+      "content": [
+        "Led production and automation of QFC regulatory reports, improving timeliness, accuracy, and operational reliability for critical regulatory submissions.",
+        "Managed backlog, sprint planning, and cross-functional delivery with engineering, legal, and compliance teams in an agile environment.",
+        "Designed and delivered platform enhancements that surfaced data lineage and traceability for QFC regulatory reports, strengthening transparency and auditability.",
+        "Coordinated remediation of system and technology issues affecting data integrity, partnering with technology, legal, and business SMEs to drive resolution.",
+        "Led regulator response efforts, ensuring accurate, timely communication and sustained confidence in reporting controls.",
+        "Enabled standardization and automation of complex regulatory reporting workflows, reducing variation and improving consistency across teams."
+      ]
+    }
+  ]
+}
