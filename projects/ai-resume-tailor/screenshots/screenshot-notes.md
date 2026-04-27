@@ -57,13 +57,5 @@ After:
 Technical product manager with experience building AI-assisted workflow automation, data products, and execution tracking systems.
 ```
 
-## Do Not Include
-
-- Real personal address.
-- Private phone numbers unless intentionally public.
-- API keys.
-- OpenAI credentials.
-- Private file paths.
-- Real job application records.
 - Unredacted resumes.
 - Employer-confidential information.
